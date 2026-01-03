@@ -7,11 +7,11 @@ body
   padding:10px;
   border:none;
   border-radius:50px;
-  bacground-color:gray;
+  background-color:gray;
   color:white;
 }
 .btn:hover
 {
   transform: scale(1.15);
-  transistion: 0.5s;
+  transition: 0.5s;
 }  

@@ -9,5 +9,6 @@ function evaluateMath(expr) {
 function Equals()
 {
   let e=document.getElementById("input");
-  e.innerHtML=`$(evaluateMath(t));
+  e.value = evaluateMath(t);
+  t = "";
 }

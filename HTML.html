@@ -1,29 +1,30 @@
 <html>
   <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="C.css";
+    <link rel="stylesheet" href="C.css">
+    <script src="J.js"></script>
   </head>
   <body>
     <input class='i' id="input" type='text'>
     <br>
     <form>
     <div>
-      <button class="btn" onlclick="update()" type="button">9</button>
-      <button class="btn" onlclick="update()" type="button">8</button>
-      <button class="btn" onlclick="update()" type="button">7</button>
-      <button class="btn" onlclick="update()" type="button">/</button>
-      <button class="btn" onlclick="update()" type="button">x</button>
-      <button class="btn" onlclick="update()" type="button">4</button>
-      <button class="btn" onlclick="update()" type="button">5</button>
-      <button class="btn" onlclick="update()" type="button">6</button>
-      <button class="btn" onlclick="update()" type="button">+</button>
-      <button class="btn" onlclick="update()" type="button">-</button>
-      <button class="btn" onlclick="update()" type="button">1</button>
-      <button class="btn" onlclick="update()" type="button">2</button>
-      <button class="btn" onlclick="update()" type="button">3</button>
-      <button class="btn" onlclick="update()" type="button">%</button>
-      <button class="btn" onlclick="Equals()" type="button">=</button>
-      <button class="btn" onlclick="update()" type="button">C</button>
+      <button class="btn" onclick="update('9')" type="button">9</button>
+      <button class="btn" onclick="update('8')" type="button">8</button>
+      <button class="btn" onclick="update('7')" type="button">7</button>
+      <button class="btn" onclick="update('/')" type="button">/</button>
+      <button class="btn" onclick="update('*')" type="button">x</button>
+      <button class="btn" onclick="update('6')" type="button">6</button>
+      <button class="btn" onclick="update('5')" type="button">5</button>
+      <button class="btn" onclick="update('4')" type="button">4</button>
+      <button class="btn" onclick="update('+')" type="button">+</button>
+      <button class="btn" onclick="update('-')" type="button">-</button>
+      <button class="btn" onclick="update('3')" type="button">3</button>
+      <button class="btn" onclick="update('2')" type="button">2</button>
+      <button class="btn" onclick="update('1')" type="button">1</button>
+      <button class="btn" onclick="update('%')" type="button">%</button>
+      <button class="btn" onclick="Equals()" type="button">=</button>
+      <button class="btn" onclick="update()" type="button">C</button>
     </div>
     </form>
   </body>

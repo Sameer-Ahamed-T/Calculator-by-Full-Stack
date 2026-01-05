@@ -6,10 +6,8 @@
   </head>
   <body>
     <div class="box">
-    <input class='i' id="input" type='text'>
-    <br>
-    <form>
-    <div>
+    <input class='i' id="input" type='text' readonly>
+    <div class="buttons">
       <button class="btn" onclick="update('9')" type="button">9</button>
       <button class="btn" onclick="update('8')" type="button">8</button>
       <button class="btn" onclick="update('7')" type="button">7</button>
@@ -25,9 +23,11 @@
       <button class="btn" onclick="update('1')" type="button">1</button>
       <button class="btn" onclick="update('%')" type="button">%</button>
       <button class="btn" onclick="Equals()" type="button">=</button>
-      <button class="btn" onclick="update()" type="button">C</button>
+      <div class="clear-row">
+        <button class="clear" onclick="clearI()" type="button">Clear</button>
+        <button class="clear" onclick="R()" type="button">Remove</button>
+      </div>
     </div>
-    </form>
     </div>
   </body>
 </html>
